@@ -16,10 +16,31 @@
     </div>
     <p class="partnership-link">Interested in partnering? <a href="/contact.html">Contact Us</a></p>
   </main>
+
+  <div id="disqus_thread" style="margin-top: 40px; width: 100%; max-width: 800px;"></div>
+
   <div class="theme-switch-container">
     <button id="theme-switch-btn">🌓</button>
   </div>
   <script defer type="text/javascript" src="/main.js"></script>
+  <script>
+      /**
+      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+      /*
+      var disqus_config = function () {
+      this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      */
+      (function() { // DON'T EDIT BELOW THIS LINE
+          var d = document, s = d.createElement('script');
+          s.src = 'https://YOUR_DISQUS_SHORTNAME.disqus.com/embed.js'; // IMPORTANT: Replace YOUR_DISQUS_SHORTNAME with your site's shortname
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </body>
 </html>
 
